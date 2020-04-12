@@ -12,6 +12,10 @@ body {
 html {
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(to right, #57c1eb 0%, #246fa8 100%);
+  font-size: 20px;
+}
+
+p {
   font-size: 16px;
 }
 
@@ -47,4 +51,14 @@ form {
 .myGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+#back {
+  text-align: center;
+  margin-top: 50px;
+  border: steelblue 2px solid;
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px 0;
+  font-size: 16px;
 }

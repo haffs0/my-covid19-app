@@ -66,7 +66,7 @@ export const EstimatorPage = () => {
         setValues({...returnResult})
         console.log(returnResult);
         setTimeout(() => {
-            toast.success("Estimator data saved.");
+            toast.success("Estimator data result.");
             setRedirect(true);
         }, 2000)
     }
